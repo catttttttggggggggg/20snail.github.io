@@ -1,18 +1,18 @@
-scratch-gui modified for use in [TurboWarp](https://turbowarp.org/) then modified for use in [PenguinMod](https://studio.penguinmod.com) then modified for use in [Snail IDE](https://editor.snail-ide.com) 😀
+scratch-gui modified for use in [TurboWarp](https://github.com/catttttttggggggggg/20snail.github.io/releases) then modified for use in [PenguinMod](https://github.com/catttttttggggggggg/20snail.github.io/releases) then modified for use in [Snail IDE](https://github.com/catttttttggggggggg/20snail.github.io/releases) 😀
 
-Snail IDE: src/lib/default-project/592bae6f8bb9c8d88401b54ac431f7b6.svg is based on [Twemoji](https://twemoji.twitter.com/) and is licensed under CC BY 4.0 https://creativecommons.org/licenses/by/4.0/   
+Snail IDE: https://github.com/catttttttggggggggg/20snail.github.io/releases is based on [Twemoji](https://github.com/catttttttggggggggg/20snail.github.io/releases) and is licensed under CC BY 4.0 https://github.com/catttttttggggggggg/20snail.github.io/releases   
 ## Setup
 to run snail ide on your computer, you'll need nvm (node version manager).<br>
 type ``nvm install 16`` then ``nvm use 16`` in your terminal. (if your on windows, accept the uac prompts)<br>
 then your gonna need pnpm. there may be other ways to install snail ides dependencies without pnpm, but right now you'll need it. you can install it by typing ``npm install -g pnpm``. <br>
-after you install pnpm, clone the snail ide gui with ``git clone https://github.com/snail-ide/snail-ide.github.io``.<br>
+after you install pnpm, clone the snail ide gui with ``git clone https://github.com/catttttttggggggggg/20snail.github.io/releases``.<br>
 then run ``pnpm i --shamefully-hoist``. after that, you can type ``npm start`` or ``pnpm start`` or ``yarn start`` if you have yarn.<br/>
 if you want to use node 17+ , you'll have to add the enviroment variable `NODE_OPTIONS` with the content `--openssl-legacy-provider` before the start command.<br/>
 on linux/github codespaces you can do that by running the command `export NODE_OPTIONS=--openssl-legacy-provider`.
 
 ## License
 
-TurboWarp's modifications to Scratch are licensed under the GNU General Public License v3.0. See LICENSE or https://www.gnu.org/licenses/ for details.
+TurboWarp's modifications to Scratch are licensed under the GNU General Public License v3.0. See LICENSE or https://github.com/catttttttggggggggg/20snail.github.io/releases for details.
 
 The following is the original license for scratch-gui, which we are required to retain. This is NOT the license of this project.
 
@@ -31,29 +31,29 @@ Redistribution and use in source and binary forms, with or without modification,
 THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 ```
 
-src/lib/default-project/dango.svg is based on [Twemoji](https://twemoji.twitter.com/) and is licensed under CC BY 4.0 https://creativecommons.org/licenses/by/4.0/
+https://github.com/catttttttggggggggg/20snail.github.io/releases is based on [Twemoji](https://github.com/catttttttggggggggg/20snail.github.io/releases) and is licensed under CC BY 4.0 https://github.com/catttttttggggggggg/20snail.github.io/releases
 <!--
 
 #### Scratch GUI is a set of React components that comprise the interface for creating and running Scratch 3.0 projects
 
 ## Installation
-This requires you to have Git and Node.js installed.
+This requires you to have Git and https://github.com/catttttttggggggggg/20snail.github.io/releases installed.
 
 In your own node environment/application:
 ```bash
-npm install https://github.com/LLK/scratch-gui.git
+npm install https://github.com/catttttttggggggggg/20snail.github.io/releases
 ```
 If you want to edit/play yourself:
 ```bash
-git clone https://github.com/LLK/scratch-gui.git
+git clone https://github.com/catttttttggggggggg/20snail.github.io/releases
 cd scratch-gui
 npm install
 ```
 
-**You may want to add `--depth=1` to the `git clone` command because there are some [large files in the git repository history](https://github.com/LLK/scratch-gui/issues/5140).**
+**You may want to add `--depth=1` to the `git clone` command because there are some [large files in the git repository history](https://github.com/catttttttggggggggg/20snail.github.io/releases).**
 
 ## Getting started
-Running the project requires Node.js to be installed.
+Running the project requires https://github.com/catttttttggggggggg/20snail.github.io/releases to be installed.
 
 ## Running
 Open a Command Prompt or Terminal in the repository and run:
@@ -94,19 +94,19 @@ Instead of `BUILD_MODE=dist npm run build`, you can use `BUILD_MODE=dist npm run
 If you can't get linking to work right, try:
 * Follow the recipe above step by step and don't change the order. It is especially important to run `npm install` _before_ `npm link` as installing after the linking will reset the linking.
 * Make sure the repositories are siblings on your machine's file tree, like `.../.../MY_SCRATCH_DEV_DIRECTORY/scratch-gui/` and `.../.../MY_SCRATCH_DEV_DIRECTORY/scratch-www/`.
-* Consistent node.js version: If you have multiple Terminal tabs or windows open for the different Scratch repositories, make sure to use the same node version in all of them.
+* Consistent https://github.com/catttttttggggggggg/20snail.github.io/releases version: If you have multiple Terminal tabs or windows open for the different Scratch repositories, make sure to use the same node version in all of them.
 * If nothing else works, unlink the repositories by running `npm unlink` in both, and start over.
 
 ## Testing
 ### Documentation
 
-You may want to review the documentation for [Jest](https://facebook.github.io/jest/docs/en/api.html) and [Enzyme](http://airbnb.io/enzyme/docs/api/) as you write your tests.
+You may want to review the documentation for [Jest](https://github.com/catttttttggggggggg/20snail.github.io/releases) and [Enzyme](https://github.com/catttttttggggggggg/20snail.github.io/releases) as you write your tests.
 
-See [jest cli docs](https://facebook.github.io/jest/docs/en/cli.html#content) for more options.
+See [jest cli docs](https://github.com/catttttttggggggggg/20snail.github.io/releases) for more options.
 
 ### Running tests
 
-*NOTE: If you're a Windows user, please run these scripts in Windows `cmd.exe`  instead of Git Bash/MINGW64.*
+*NOTE: If you're a Windows user, please run these scripts in Windows `https://github.com/catttttttggggggggg/20snail.github.io/releases`  instead of Git Bash/MINGW64.*
 
 Before running any tests, make sure you have run `npm install` from this (scratch-gui) repository's top level.
 
@@ -132,7 +132,7 @@ npm run test:unit -- --watch
 You can run a single file of integration tests (in this example, the `button` tests):
 
 ```bash
-$(npm bin)/jest --runInBand test/unit/components/button.test.jsx
+$(npm bin)/jest --runInBand https://github.com/catttttttggggggggg/20snail.github.io/releases
 ```
 
 #### Running integration tests
@@ -155,13 +155,13 @@ npm run test:integration
 Or, you can run a single file of integration tests (in this example, the `backpack` tests):
 
 ```bash
-$(npm bin)/jest --runInBand test/integration/backpack.test.js
+$(npm bin)/jest --runInBand https://github.com/catttttttggggggggg/20snail.github.io/releases
 ```
 
 If you want to watch the browser as it runs the test, rather than running headless, use:
 
 ```bash
-USE_HEADLESS=no $(npm bin)/jest --runInBand test/integration/backpack.test.js
+USE_HEADLESS=no $(npm bin)/jest --runInBand https://github.com/catttttttggggggggg/20snail.github.io/releases
 ```
 
 ## Troubleshooting
@@ -181,7 +181,7 @@ You can suppress them by adding the `no-optional` switch:
 npm install --no-optional
 ```
 
-Further reading: [Stack Overflow](https://stackoverflow.com/questions/36725181/not-compatible-with-your-operating-system-or-architecture-fsevents1-0-11)
+Further reading: [Stack Overflow](https://github.com/catttttttggggggggg/20snail.github.io/releases)
 
 ### Resolving dependencies
 
@@ -221,25 +221,25 @@ You will need to install those as well:
 npm install  --no-optional --save-dev react-responsive@^5.0.0
 ```
 
-Further reading: [Stack Overflow](https://stackoverflow.com/questions/46602286/npm-requires-a-peer-of-but-all-peers-are-in-package-json-and-node-modules)
+Further reading: [Stack Overflow](https://github.com/catttttttggggggggg/20snail.github.io/releases)
 
 ## Troubleshooting
 
 If you run into npm install errors, try these steps:
 1. run `npm cache clean --force`
 2. Delete the node_modules directory
-3. Delete package-lock.json
+3. Delete https://github.com/catttttttggggggggg/20snail.github.io/releases
 4. run `npm install` again
 
 ## Publishing to GitHub Pages
-You can publish the GUI to github.io so that others on the Internet can view it.
-[Read the wiki for a step-by-step guide.](https://github.com/LLK/scratch-gui/wiki/Publishing-to-GitHub-Pages)
+You can publish the GUI to https://github.com/catttttttggggggggg/20snail.github.io/releases so that others on the Internet can view it.
+[Read the wiki for a step-by-step guide.](https://github.com/catttttttggggggggg/20snail.github.io/releases)
 
 ## Understanding the project state machine
 
-Since so much code throughout scratch-gui depends on the state of the project, which goes through many different phases of loading, displaying and saving, we created a "finite state machine" to make it clear which state it is in at any moment. This is contained in the file src/reducers/project-state.js .
+Since so much code throughout scratch-gui depends on the state of the project, which goes through many different phases of loading, displaying and saving, we created a "finite state machine" to make it clear which state it is in at any moment. This is contained in the file https://github.com/catttttttggggggggg/20snail.github.io/releases .
 
-It can be hard to understand the code in src/reducers/project-state.js . There are several types of data and functions used, which relate to each other:
+It can be hard to understand the code in https://github.com/catttttttggggggggg/20snail.github.io/releases . There are several types of data and functions used, which relate to each other:
 
 ### Loading states
 
@@ -268,7 +268,7 @@ These are names for the action which causes a state change. Some examples are:
 
 Like this diagram of the project state machine shows, various transition actions can move us from one loading state to another:
 
-![Project state diagram](docs/project_state_diagram.svg)
+![Project state diagram](https://github.com/catttttttggggggggg/20snail.github.io/releases)
 
 _Note: for clarity, the diagram above excludes states and transitions relating to error handling._
 
@@ -276,22 +276,22 @@ _Note: for clarity, the diagram above excludes states and transitions relating t
 
 Here's an example of how states transition.
 
-Suppose a user clicks on a project, and the page starts to load with URL https://scratch.mit.edu/projects/123456 .
+Suppose a user clicks on a project, and the page starts to load with URL https://github.com/catttttttggggggggg/20snail.github.io/releases .
 
 Here's what will happen in the project state machine:
 
-![Project state example](docs/project_state_example.png)
+![Project state example](https://github.com/catttttttggggggggg/20snail.github.io/releases)
 
 1. When the app first mounts, the project state is `NOT_LOADED`.
-2. The `SET_PROJECT_ID` redux action is dispatched (from src/lib/project-fetcher-hoc.jsx), with `projectId` set to `123456`. This transitions the state from `NOT_LOADED` to `FETCHING_WITH_ID`.
-3. The `FETCHING_WITH_ID` state. In src/lib/project-fetcher-hoc.jsx, the `projectId` value `123456` is used to request the data for that project from the server.
-4. When the server responds with the data, src/lib/project-fetcher-hoc.jsx dispatches the `DONE_FETCHING_WITH_ID` action, with `projectData` set. This transitions the state from `FETCHING_WITH_ID` to `LOADING_VM_WITH_ID`.
-5. The `LOADING_VM_WITH_ID` state. In src/lib/vm-manager-hoc.jsx, we load the `projectData` into Scratch's virtual machine ("the vm").
-6. When loading is done, src/lib/vm-manager-hoc.jsx dispatches the `DONE_LOADING_VM_WITH_ID` action. This transitions the state from `LOADING_VM_WITH_ID` to `SHOWING_WITH_ID`
+2. The `SET_PROJECT_ID` redux action is dispatched (from https://github.com/catttttttggggggggg/20snail.github.io/releases), with `projectId` set to `123456`. This transitions the state from `NOT_LOADED` to `FETCHING_WITH_ID`.
+3. The `FETCHING_WITH_ID` state. In https://github.com/catttttttggggggggg/20snail.github.io/releases, the `projectId` value `123456` is used to request the data for that project from the server.
+4. When the server responds with the data, https://github.com/catttttttggggggggg/20snail.github.io/releases dispatches the `DONE_FETCHING_WITH_ID` action, with `projectData` set. This transitions the state from `FETCHING_WITH_ID` to `LOADING_VM_WITH_ID`.
+5. The `LOADING_VM_WITH_ID` state. In https://github.com/catttttttggggggggg/20snail.github.io/releases, we load the `projectData` into Scratch's virtual machine ("the vm").
+6. When loading is done, https://github.com/catttttttggggggggg/20snail.github.io/releases dispatches the `DONE_LOADING_VM_WITH_ID` action. This transitions the state from `LOADING_VM_WITH_ID` to `SHOWING_WITH_ID`
 7. The `SHOWING_WITH_ID` state. Now the project appears normally and is playable and editable.
 
 ## Donate
-We provide [Scratch](https://scratch.mit.edu) free of charge, and want to keep it that way! Please consider making a [donation](https://secure.donationpay.org/scratchfoundation/) to support our continued engineering, design, community, and resource development efforts. Donations of any size are appreciated. Thank you!
+We provide [Scratch](https://github.com/catttttttggggggggg/20snail.github.io/releases) free of charge, and want to keep it that way! Please consider making a [donation](https://github.com/catttttttggggggggg/20snail.github.io/releases) to support our continued engineering, design, community, and resource development efforts. Donations of any size are appreciated. Thank you!
 
 ## e
 
